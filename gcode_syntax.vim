@@ -13,7 +13,7 @@ syntax match gcodeKeywordG 'G\d\+'
 syntax match gcodeKeywordM 'M\d\+'
 syntax match gcodeKeyWordS 'S\d\+'
 syntax match gcodeKeyWordF "F"
-syntax match gcodeKeyWordX "[XYZ]"
+syntax match gcodeKeyWordX "[XYZABIJKR]"
 
 highlight gcodeKeywordG ctermfg=Green
 highlight gcodeKeywordS ctermfg=Blue
